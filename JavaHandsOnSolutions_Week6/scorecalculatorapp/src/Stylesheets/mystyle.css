@@ -1,0 +1,32 @@
+.score-container {
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner spacing */
+  margin: 20px auto; /* Center the container with auto margins and add outer spacing */
+  max-width: 500px; /* Max width for readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f9f9f9; /* Light background */
+  color: #333; /* Dark text */
+  font-family: Arial, sans-serif; /* Readable font */
+  text-align: left; /* Align text within container */
+}
+
+.score-container h2, .score-container h3 {
+  color: #333; /* Darker heading color */
+  text-align: center; /* Center headings */
+}
+
+.score-container p {
+  line-height: 1.6; /* Spacing for paragraphs */
+}
+
+.score-container strong {
+  color: #555; /* Slightly darker bold text */
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
+}
